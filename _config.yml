@@ -6,11 +6,11 @@ tagline: A Jekyll theme
 description: The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme
   for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.
 url: https://example.com
-baseurl: ""
+baseurl: ''
 author:
   name: Andrew Fong
   url: https://twitter.com/fongandrewc
-paginate: 5
+paginate: 10
 exclude:
 - README.md
 plugins:
@@ -23,7 +23,7 @@ theme_colors:
   sidebar-fg-color: "#FFFFFF"
   link-color: "#000000"
 sidebar-sticky: true
-layout-reverse: false
+layout-reverse: true
 remote_theme: fongandrew/hydeout
 google_analytics: ''
 disqus:
